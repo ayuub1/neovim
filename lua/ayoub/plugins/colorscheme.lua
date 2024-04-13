@@ -5,6 +5,9 @@ return{
     "Mofiqul/dracula.nvim",
     "folke/tokyonight.nvim",
     "rebelot/kanagawa.nvim",
+    "catppuccin/nvim",
+    "navarasu/onedark.nvim",
+
 
 
 }    

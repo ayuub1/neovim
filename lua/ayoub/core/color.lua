@@ -1,2 +1,5 @@
-vim.o.background = "dark" 
-vim.cmd([[colorscheme kanagawa]])
+
+require('onedark').setup {
+    style = 'deep'
+}
+require('onedark').load()

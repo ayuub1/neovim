@@ -1,6 +1,6 @@
 require("ayoub.lazy")
-require("ayoub.core")
 require("ayoub.core.options")
+require("ayoub.core")
 require("ayoub.core.keymaps")
 require("ayoub.core.color")
 
