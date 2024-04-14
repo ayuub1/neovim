@@ -1,5 +1,5 @@
 return{
-    "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...,
+    "morhetz/gruvbox",
     "loctvl842/monokai-pro.nvim",
     "catppuccin/nvim",
     "Mofiqul/dracula.nvim",
@@ -7,8 +7,5 @@ return{
     "rebelot/kanagawa.nvim",
     "catppuccin/nvim",
     "navarasu/onedark.nvim",
-
-
-
 }    
     
