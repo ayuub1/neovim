@@ -7,3 +7,6 @@ require("ayoub.core.color")
 
 vim.o.guifont = "CaskaydiaMono Nerd Font:h10" -- text below applies for VimScript
 
+
+
+
