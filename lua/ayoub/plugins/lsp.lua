@@ -39,8 +39,16 @@ return {
 
 
 
+    lspconfig["tsserver"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+    })
 
-    
+    lspconfig["svelte"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+    })
+
     lspconfig["clangd"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
@@ -50,7 +58,7 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
-    
+
     lspconfig["zls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
@@ -61,13 +69,27 @@ return {
       on_attach = on_attach,
     })
 
+    lspconfig["mojo"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+        filetypes = {"mojo"}
+    })
 
-        lspconfig["emmet_ls"].setup({
+    lspconfig["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" , "rs" , "rust" },
         })
 
+    lspconfig["gopls"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+    })
 
+    lspconfig["cssls"].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" , "rs" , "rust" },
+    })
 
 
     lspconfig["lua_ls"].setup({

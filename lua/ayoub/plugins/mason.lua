@@ -28,6 +28,8 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         "tsserver",
+        "rust_analyzer",
+        "clangd"
 
       },
       -- auto-install configured servers (with lspconfig)
